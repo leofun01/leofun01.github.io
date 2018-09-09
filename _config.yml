@@ -1,0 +1,24 @@
+plugins:
+  - jekyll-redirect-from
+  - jekyll-multiple-languages-plugin
+
+exclude:
+  - README.md
+
+languages: ["uk", "en"]
+
+defaultLang: en
+
+languageNames:
+  uk: Ukrainian
+  en: English
+
+exclude_from_localizations: ["assets"]
+
+name: GHP name
+description: GHP description
+author: leofun01
+title: GHP Title
+logo: /assets/img/logo.png
+#url: "http://username.github.io"
+#baseurl: ""
